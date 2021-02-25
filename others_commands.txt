@@ -1,0 +1,13 @@
+--create conda env
+
+python --version
+conda create -n image_classification_cnn python=3.8.5 anaconda
+conda activate image_classification_cnn
+
+
+--generate requirements.txt from conda env
+
+pip freeze > requirements.txt
+
+
+
